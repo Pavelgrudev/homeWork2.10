@@ -1,4 +1,4 @@
-package prosky.Controller.model;
+package prosky.model;
 
 import org.springframework.stereotype.Component;
 import org.springframework.web.context.annotation.SessionScope;

@@ -20,7 +20,8 @@ public OrderController(OrderService orderService){
 public List<Integer> addItems(@RequestParam List<Integer> ids){
     return orderService.addItems(ids);
 }
-    public List<Integer> addItems(){
+@GetMapping("/get")
+    public List<Integer> getItems(){
         return orderService.getItems();}
 
 }
